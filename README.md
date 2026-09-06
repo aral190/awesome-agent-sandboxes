@@ -46,6 +46,8 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [OpenServ](https://github.com/openserv-labs/sdk) - TypeScript framework for autonomous agents.
 - [AgentBox](https://github.com/madarco/agentbox) - Run coding agents (Claude Code, Codex, OpenCode) in parallel sandboxed VMs — local Docker (default), self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B, DigitalOcean). Sub-1s checkpoints, per-box browser/VS Code/shells, git credentials kept on the host.
 
+- [bashkit4j](https://github.com/tersePrompts/bashkit4j) - In-JVM sandboxed bash: 160+ reimplemented commands on an in-memory VFS, opt-in allowlisted host mounts, zero OS processes — no containers, no VMs (Java 17+).
+
 ## Others
 
 - [Agents.one Playground](https://agents.one/playground) - Upload Python agents and share public playground links for zero-install testing.
