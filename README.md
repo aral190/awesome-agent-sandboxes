@@ -17,6 +17,7 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [shellbox.dev](https://shellbox.dev/) - SSH-accessible Linux boxes.
 - [Novita Sandbox](https://novita.ai/docs/guides/sandbox-agent-runtime-introduction) - Agent deployment framework with SDK decorators and one-click configuration.
 - [BlueRock Agent Sandbox](https://www.bluerock.io/products/agent-sandbox) - Commercial sandbox with full MCP visibility and action-level tracing.
+- [Sandbox as a Service](https://sandbox-as-a-service.com/) - Full cloud VMs rather than microVMs: 24-hour sessions with no subscription tier, public preview URLs that open no inbound port on the sandbox, and per-second billing. REST API and [MCP server](https://github.com/fstandhartinger/sandbox-as-a-service-mcp).
 - [Tenki Sandbox](https://tenki.cloud/products/sandbox) - Hardware-isolated Linux VMs with warm-start sessions, snapshot/fork, and multi-language SDKs.
 - [Runtime](https://withruntime.com) - Firecracker microVMs with pause and wake that keep memory and processes, snapshots and forks, and an MCP server. [SDK](https://github.com/withruntime/runtime).
 
