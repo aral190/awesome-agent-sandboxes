@@ -17,7 +17,13 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [shellbox.dev](https://shellbox.dev/) - SSH-accessible Linux boxes.
 - [Novita Sandbox](https://novita.ai/docs/guides/sandbox-agent-runtime-introduction) - Agent deployment framework with SDK decorators and one-click configuration.
 - [BlueRock Agent Sandbox](https://www.bluerock.io/products/agent-sandbox) - Commercial sandbox with full MCP visibility and action-level tracing.
+<<<<<<< HEAD
+- [Sandbox as a Service](https://sandbox-as-a-service.com/) - Full cloud VMs rather than microVMs: 24-hour sessions with no subscription tier, public preview URLs that open no inbound port on the sandbox, and per-second billing. REST API and [MCP server](https://github.com/fstandhartinger/sandbox-as-a-service-mcp).
 - [Tenki Sandbox](https://tenki.cloud/products/sandbox) - Hardware-isolated Linux VMs with warm-start sessions, snapshot/fork, and multi-language SDKs.
+- [Runtime](https://withruntime.com) - Firecracker microVMs with pause and wake that keep memory and processes, snapshots and forks, and an MCP server. [SDK](https://github.com/withruntime/runtime).
+=======
+- [OmniRun](https://omnirun.io) - Firecracker microVM sandboxes with 250ms boot, desktop GUI control, end-to-end encryption, and TypeScript/Python SDKs.
+>>>>>>> upstream-pr-1
 
 ## Self-hosted / Open Source
 
@@ -29,9 +35,11 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [Bouvet](https://github.com/vrn21/bouvet) - Rust-based sandbox.
 - [Microsandbox](https://github.com/zerocore-ai/microsandbox) - Self-hosted with VM-level isolation and under 200ms boot times.
 - [SandboxAI](https://github.com/substratusai/sandboxai) - Multi-cloud infrastructure for AI-generated code.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Self-hosted agent runtime with per-session Docker and Kubernetes sandboxes, MCP tool permissions, approvals, and audit/replay.
 - [Daytona](https://www.daytona.io/docs/en/sandboxes/) - Open-source infrastructure with SDK/CLI.
 - [Fence](https://github.com/Use-Tusk/fence) - Lightweight CLI sandbox with network and filesystem restrictions using OS-native tools.
 - [Landrun](https://github.com/Zouuup/landrun) - Landlock-based sandboxing without root.
+- [cplt](https://github.com/navikt/cplt) - Seatbelt and Landlock sandbox for coding agents, with policy committed to the repository.
 - [nono](https://huggingface.co/blog/lukehinds/nono-agent-sandbox) - Capability-based shell using kernel-level security primitives.
 - [yolo-cage](https://github.com/borenstein/yolo-cage) - Anti-exfiltration sandbox.
 - [Yolobox](https://github.com/finbarr/yolobox) - Docker containers protecting home directory.
@@ -44,6 +52,9 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [AgentFence](https://github.com/agentfence/agentfence) - Security testing platform for prompt injection and secret leakage vulnerabilities.
 - [OpenServ](https://github.com/openserv-labs/sdk) - TypeScript framework for autonomous agents.
 - [AgentBox](https://github.com/madarco/agentbox) - Run coding agents (Claude Code, Codex, OpenCode) in parallel sandboxed VMs — local Docker (default), self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B, DigitalOcean). Sub-1s checkpoints, per-box browser/VS Code/shells, git credentials kept on the host.
+- [Mudroom](https://github.com/Kernel-Hunter/mudroom) - macOS app and CLI that runs coding agents in Linux micro-VMs (Apple container) on a copy-on-write clone of the project, behind a network allowlist proxy, with per-hunk diff review before changes are applied.
+
+- [bashkit4j](https://github.com/tersePrompts/bashkit4j) - In-JVM sandboxed bash: 160+ reimplemented commands on an in-memory VFS, opt-in allowlisted host mounts, zero OS processes — no containers, no VMs (Java 17+).
 
 ## Others
 
@@ -52,6 +63,7 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [Browser Use Sandboxes](https://docs.browser-use.com/customize/sandbox/quickstart) - Production browser automation.
 - [ComputeSDK](https://www.computesdk.com/) - Universal API across multiple cloud providers with automatic provider detection.
 - [VibeKit](https://docs.vibekit.sh/) - SDK supporting E2B, Daytona, Modal, and other providers.
+- [OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) - Freezes an agent run's provider traffic into a local trace and replays it offline, or forks the same recording onto another model, so two runs can be diffed without re-executing the agent or calling the provider again.
 
 ## Contributing
 
