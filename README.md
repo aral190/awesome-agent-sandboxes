@@ -17,13 +17,10 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [shellbox.dev](https://shellbox.dev/) - SSH-accessible Linux boxes.
 - [Novita Sandbox](https://novita.ai/docs/guides/sandbox-agent-runtime-introduction) - Agent deployment framework with SDK decorators and one-click configuration.
 - [BlueRock Agent Sandbox](https://www.bluerock.io/products/agent-sandbox) - Commercial sandbox with full MCP visibility and action-level tracing.
-<<<<<<< HEAD
 - [Sandbox as a Service](https://sandbox-as-a-service.com/) - Full cloud VMs rather than microVMs: 24-hour sessions with no subscription tier, public preview URLs that open no inbound port on the sandbox, and per-second billing. REST API and [MCP server](https://github.com/fstandhartinger/sandbox-as-a-service-mcp).
 - [Tenki Sandbox](https://tenki.cloud/products/sandbox) - Hardware-isolated Linux VMs with warm-start sessions, snapshot/fork, and multi-language SDKs.
 - [Runtime](https://withruntime.com) - Firecracker microVMs with pause and wake that keep memory and processes, snapshots and forks, and an MCP server. [SDK](https://github.com/withruntime/runtime).
-=======
 - [OmniRun](https://omnirun.io) - Firecracker microVM sandboxes with 250ms boot, desktop GUI control, end-to-end encryption, and TypeScript/Python SDKs.
->>>>>>> upstream-pr-1
 
 ## Self-hosted / Open Source
 
@@ -53,7 +50,6 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [OpenServ](https://github.com/openserv-labs/sdk) - TypeScript framework for autonomous agents.
 - [AgentBox](https://github.com/madarco/agentbox) - Run coding agents (Claude Code, Codex, OpenCode) in parallel sandboxed VMs — local Docker (default), self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B, DigitalOcean). Sub-1s checkpoints, per-box browser/VS Code/shells, git credentials kept on the host.
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - macOS app and CLI that runs coding agents in Linux micro-VMs (Apple container) on a copy-on-write clone of the project, behind a network allowlist proxy, with per-hunk diff review before changes are applied.
-
 - [bashkit4j](https://github.com/tersePrompts/bashkit4j) - In-JVM sandboxed bash: 160+ reimplemented commands on an in-memory VFS, opt-in allowlisted host mounts, zero OS processes — no containers, no VMs (Java 17+).
 
 ## Others
