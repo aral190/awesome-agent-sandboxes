@@ -44,6 +44,7 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [AgentFence](https://github.com/agentfence/agentfence) - Security testing platform for prompt injection and secret leakage vulnerabilities.
 - [OpenServ](https://github.com/openserv-labs/sdk) - TypeScript framework for autonomous agents.
 - [AgentBox](https://github.com/madarco/agentbox) - Run coding agents (Claude Code, Codex, OpenCode) in parallel sandboxed VMs — local Docker (default), self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B, DigitalOcean). Sub-1s checkpoints, per-box browser/VS Code/shells, git credentials kept on the host.
+- [Mudroom](https://github.com/Kernel-Hunter/mudroom) - macOS app and CLI that runs coding agents in Linux micro-VMs (Apple container) on a copy-on-write clone of the project, behind a network allowlist proxy, with per-hunk diff review before changes are applied.
 
 ## Others
 
