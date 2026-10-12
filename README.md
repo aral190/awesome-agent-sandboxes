@@ -47,6 +47,8 @@ A curated list of **code-execution sandboxing solutions for AI/LLM agents**.
 - [AgentBox](https://github.com/madarco/agentbox) - Run coding agents (Claude Code, Codex, OpenCode) in parallel sandboxed VMs — local Docker (default), self-hosted, or cloud (Hetzner, Daytona, Vercel, E2B, DigitalOcean). Sub-1s checkpoints, per-box browser/VS Code/shells, git credentials kept on the host.
 - [Mudroom](https://github.com/Kernel-Hunter/mudroom) - macOS app and CLI that runs coding agents in Linux micro-VMs (Apple container) on a copy-on-write clone of the project, behind a network allowlist proxy, with per-hunk diff review before changes are applied.
 
+- [bashkit4j](https://github.com/tersePrompts/bashkit4j) - In-JVM sandboxed bash: 160+ reimplemented commands on an in-memory VFS, opt-in allowlisted host mounts, zero OS processes — no containers, no VMs (Java 17+).
+
 ## Others
 
 - [Agents.one Playground](https://agents.one/playground) - Upload Python agents and share public playground links for zero-install testing.
